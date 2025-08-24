@@ -8,25 +8,16 @@ public class area_triangle {
 
          //enters the height and base from the user
         System.out.println("Enter the height:");
-        float height = input.nextFloat();
+        double  height = input.nextDouble();
 
         System.out.println("Enter the base:");
-        float base = input.nextFloat();
+        double base = input.nextDouble();
 
-        float area = (base * height) / 2;
-        System.out.println(area + "");
+        double  area = 0.5* base * height;
+        System.out.println("area of triangle is :" + area);
         input.close();
 
-        //area of rectangle
-//        Scanner sc = new Scanner(System.in);
-//        System.out.println("enter the length:");
-//        float l = sc.nextFloat();
-//        System.out.println("enter the breadth :");
-//        float b = sc.nextFloat();
-//
-//        float areaR = (l * b);
-//        System.out.println(areaR + "");
-//        sc.close();
+
     }
 
 }
